@@ -23,16 +23,16 @@ public class SimpleCalculator {
     {
         int result = 0;
         switch (operation) {
-            case "+":
+            case "+": firstNumber + secondNumber;
                 //implement addition
                 break;
-            case "-":
+            case "-": firstNumber - secondNumber;
                 //implement subtraction
                 break;
-            case "*":
+            case "*": firstNumber * secondNumber;
                 //implement multiplication
                 break;
-            case "/":
+            case "/": firstNumber / secondNumber;
                 //implement division
                 break;
             default:
